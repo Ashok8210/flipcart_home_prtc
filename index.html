@@ -1,0 +1,2641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipcart home page</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/slick.js"></script>
+    <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header ">
+        <div class="header_inner">
+            <div class="main_brand">
+                <div class="flipcart_main">
+                    <div class="flipcart_vertical">
+                        <a href="#">
+                            <img src="./images/flipkart-plus.png" alt="" class="flip_img">
+                        </a>
+                        <a href="#" class="explore">
+                            Explore
+                            <span class="plus">Plus</span>
+                            <img width="10" src="./images/plus.png" alt="">
+                        </a>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                <div class="search_for_product">
+                    <form class="formation">
+                        <div class="formation_text">
+                            <div class="branda_and_more">
+                                <input class="search_product" type="text"
+                                    placeholder="Search for products, brands and more">
+                            </div>
+                            <button class="search_icon" type="submit">
+                                <svg width="20" height="20" viewBox="0 0 17 18" class=""
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="#2874F1" fill-rule="evenodd">
+                                        <path class="_34RNph"
+                                            d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203">
+                                        </path>
+                                        <path class="_34RNph"
+                                            d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="login_box">
+                    <div class="login_main_box">
+                        <div class="login_background">
+                            <div>
+                                <a onclick="handleModal('overlay')" href="#" class="login_anchor">Login</a>
+                            </div>
+
+                            <ul class="submenu">
+                                <li>
+                                    <ul>
+                                        <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1">New
+                                                coustmer? <span class="sign_span">sign up</span></a></li>
+
+                                        <li onclick="handleModal('overlay')" class="m-0 login_dp" id="mybtn">
+
+
+                                            <path fill="#2874F1" fill-rule="nonzero"
+                                                d="M7 .333A6.67 6.67 0 0 0 .333 7 6.67 6.67 0 0 0 7 13.667 6.67 6.67 0 0 0 13.667 7 6.67 6.67 0 0 0 7 .333zm0 2c1.107 0 2 .894 2 2 0 1.107-.893 2-2 2s-2-.893-2-2c0-1.106.893-2 2-2zM7 11.8a4.8 4.8 0 0 1-4-2.147C3.02 8.327 5.667 7.6 7 7.6c1.327 0 3.98.727 4 2.053A4.8 4.8 0 0 1 7 11.8z">
+                                            </path>
+
+                                            <!-- popup -->
+                                            </svg> <span class="svg_right">My
+                                                profile</span>
+
+                                        </li>
+                                        <!-- popup -->
+
+                                        <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                    width="16" height="16" class="" viewBox="0 0 20 20"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g id="Desktop_VIP" stroke="none" stroke-width="1"
+                                                        fill-rule="evenodd">
+                                                        <g transform="translate(7.873 .143)">
+                                                            <path
+                                                                d="M6.484 4.94s2.476 1.227 3.698 1.748c1.188.506 1.323 2.4.016 3.04-1.307.64-1.67.744-1.67.744s.208-.53.178-1.044c-.085-.914-2.787-1.656-4.576-2.094 0 0-1.375-4.311-1.995-5.512C1.509.612.242.11.242.11l2.995.04s1.03-.05 1.488 1.055c.456 1.106 1.76 3.734 1.76 3.734"
+                                                                fill="#2873F0" mask="url(#b)"></path>
+                                                        </g>
+                                                        <g transform="translate(8.635 8.27)">
+                                                            <path
+                                                                d="M5.547 6.265S4.334 8.713 3.8 9.965c-.507 1.187-2.44 1.322-3.079.015C.081 8.673.015 8.44.015 8.44s.387.076 1 .048c.915-.084 1.7-2.786 2.138-4.575 0 0 4.311-1.377 5.513-1.997 1.21-.624 1.71-1.892 1.71-1.892l-.04 3.44s.05.587-1.055 1.044c-1.105.455-3.734 1.757-3.734 1.757"
+                                                                fill="#2873F0" mask="url(#d)"></path>
+                                                        </g>
+                                                        <g transform="translate(0 8.778)">
+                                                            <path
+                                                                d="M4.655 5.573S2.193 4.353.956 3.826C-.232 3.32-.367 1.423.94.786 2.248.145 2.774.026 2.774.026s-.34.545-.255 1.157C2.606 2.1 5.22 2.74 7.008 3.179c0 0 1.427 4.287 1.997 5.513.695 1.493 1.848 1.72 1.848 1.72l-3.396-.05s-.585.05-1.042-1.055c-.458-1.106-1.76-3.734-1.76-3.734"
+                                                                fill="#2873F0" mask="url(#f)"></path>
+                                                        </g>
+                                                        <g transform="translate(0 .143)">
+                                                            <path
+                                                                d="M4.857 4.754s1.219-2.46 1.747-3.699c.506-1.188 2.4-1.321 3.04-.016.64 1.308.701 1.544.701 1.544s-.482.007-.993.035c-.916.087-1.663 2.702-2.101 4.49 0 0-4.296 1.405-5.513 1.996C.066 9.916 0 10.957 0 10.957l.068-3.4s-.05-.586 1.055-1.043c1.105-.457 3.734-1.76 3.734-1.76"
+                                                                fill="#2873F0" mask="url(#h)"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg> <span class="svg_right">Flipkart Plus Zone</span></a></li>
+
+                                        <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="12" class=""
+                                                    viewBox="0 0 16 12">
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <path fill="#2874F1"
+                                                            d="M6.038 11.682h8.407c.565 0 1.018-.38 1.13-.855V.847H.426v9.98c0 .475.452.855 1.017.855h2.232v-2.98H1.94L4.776 6l2.996 2.703H6.038v2.98z">
+                                                        </path>
+                                                    </g>
+                                                </svg> <span class="svg_right">Orders</span></a></li>
+
+                                        <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" class="" width="16" height="14"
+                                                    viewBox="0 0 20 16">
+                                                    <path
+                                                        d="M8.695 16.682C4.06 12.382 1 9.536 1 6.065 1 3.219 3.178 1 5.95 1c1.566 0 3.069.746 4.05 1.915C10.981 1.745 12.484 1 14.05 1 16.822 1 19 3.22 19 6.065c0 3.471-3.06 6.316-7.695 10.617L10 17.897l-1.305-1.215z"
+                                                        fill="#2874F0" class="" stroke="#FFF" fill-rule="evenodd"
+                                                        opacity=".9"></path>
+                                                </svg> <span class="svg_right">Wishlist</span></a></li>
+
+                                        <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="12" class=""
+                                                    viewBox="0 0 16 16">
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <path fill="#FFF" d="M0 0h16v16H0z"></path>
+                                                        <path fill="#2874F0"
+                                                            d="M16 9.25v2.5c0 .69-.597 1.25-1.333 1.25H1.333C.597 13 0 12.44 0 11.75v-2.5c.736 0 1.333-.56 1.333-1.25S.736 6.75 0 6.75v-2.5C0 3.56.597 3 1.333 3h13.334C15.403 3 16 3.56 16 4.25v2.5c-.736 0-1.333.56-1.333 1.25S15.264 9.25 16 9.25zM4.4 3.625v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4z">
+                                                        </path>
+                                                    </g>
+                                                </svg> <span class="svg_right">Rewards</span></a></li>
+
+                                        <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                    width="16" height="16" class="" viewBox="0 0 23 22"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g fill="none" fill-rule="evenodd" transform="translate(-9.694 -9)">
+                                                        <ellipse cx="20.557" cy="20" rx="20.557" ry="20"></ellipse>
+                                                        <path d="M7 6h28v28H7z"></path>
+                                                        <path fill="#2874F0" fill-rule="nonzero"
+                                                            d="M31.5 27v1.167a2.34 2.34 0 0 1-2.333 2.333H12.833a2.333 2.333 0 0 1-2.333-2.333V11.833A2.333 2.333 0 0 1 12.833 9.5h16.334a2.34 2.34 0 0 1 2.333 2.333V13H21a2.333 2.333 0 0 0-2.333 2.333v9.334A2.333 2.333 0 0 0 21 27h10.5zM21 24.667h11.667v-9.334H21v9.334zm4.667-2.917c-.97 0-1.75-.782-1.75-1.75s.78-1.75 1.75-1.75c.968 0 1.75.782 1.75 1.75s-.782 1.75-1.75 1.75z">
+                                                        </path>
+                                                    </g>
+                                                </svg><span class="svg_right">Gift cards</span></a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="login_box">
+                    <a class="saller_an" href="">
+                        <span>Become a Seller</span>
+                    </a>
+                </div>
+                <div class="login_box">
+                    <div class="more_sv">
+                        <div class="more_svg">
+                            <div>
+                                <div class="">More
+
+                                </div>
+                                <ul class="submenu">
+                                    <li>
+                                        <ul>
+
+                                            <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><span
+                                                        class="svg_right">Notification prefrences</span></a></li>
+
+                                            <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                        width="4.7" height="8" viewBox="0 0 16 27"
+                                                        xmlns="http://www.w3.org/2000/svg" class="zZ3yfL">
+                                                        <path
+                                                            d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                                                            fill="#2874F1" class="_2gTTdy"></path>
+                                                    </svg><span class="svg_right">24x7 custemer care</span></a></li>
+
+                                            <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="12"
+                                                        class="" viewBox="0 0 16 16">
+                                                        <g fill="none" fill-rule="evenodd">
+                                                            <path fill="#FFF" d="M0 0h16v16H0z"></path>
+                                                            <path fill="#2874F0"
+                                                                d="M16 9.25v2.5c0 .69-.597 1.25-1.333 1.25H1.333C.597 13 0 12.44 0 11.75v-2.5c.736 0 1.333-.56 1.333-1.25S.736 6.75 0 6.75v-2.5C0 3.56.597 3 1.333 3h13.334C15.403 3 16 3.56 16 4.25v2.5c-.736 0-1.333.56-1.333 1.25S15.264 9.25 16 9.25zM4.4 3.625v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4z">
+                                                            </path>
+                                                        </g>
+                                                    </svg> <span class="svg_right">Advertise</span></a></li>
+
+                                            <li class="m-0 login_dp"><a href="" class="sub-menu-item pt-1 pb-1"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="14"
+                                                        class="" viewBox="0 0 12 14">
+                                                        <g fill="none" fill-rule="evenodd">
+                                                            <path d="M-4-3h20v20H-4z"></path>
+                                                            <path fill="#2874F0" fill-rule="nonzero"
+                                                                d="M12 4.94H8.57V0H3.43v4.94H0l6 5.766 6-5.765zM0 12.354V14h12v-1.647H0z">
+                                                            </path>
+                                                        </g>
+                                                    </svg><span class="svg_right">Download App</span></a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                            class="scaler_vector">
+                            <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff"
+                                class="_2gTTdy"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="login_box">
+                    <div class="visible_cart">
+                        <div class="shoping_cart">
+                            <a class=" catr_sss" href="https://www.flipkart.com/viewcart?otracker=Cart_Icon_Click">
+                                <svg class="vipro" width="14" height="14" viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="_1bS9ic"
+                                        d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                                        fill="#fff"></path>
+                                </svg>
+                                <span>Cart</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <div class="product_heading">
+        <div class="chose_product ">
+            <div class="any_product_main">
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/first_gift.png">
+                            </div>
+                        </div>
+                        <div class="mb_text">Top Offers
+
+                        </div>
+                    </a>
+                </div>
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/second_gift.png">
+                            </div>
+                        </div>
+                        <div class="mb_text">Grocery
+
+                        </div>
+                    </a>
+                </div>
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/third_gift.webp">
+                            </div>
+                        </div>
+                        <div class="mb_text">Mobiles
+
+                        </div>
+                    </a>
+                </div>
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/four_gift.png">
+                            </div>
+                        </div>
+                        <div class="mb_text">Fashion
+                            <span class="menu-arrow"></span>
+                        </div>
+                    </a>
+
+                    <div class="dropdon">
+                        <div class="product_dropdon">
+                            <div class="dropdon_inner">
+                                <div class="dpn_flx">
+                                    <div class="dpn_left_side">
+                                        <a class="dpn_anchr" href="">Men's Top Wear</a>
+                                        <a class="dpn_anchr" href="">Men's Bottom Wear</a>
+                                        <a class="dpn_anchr" href="">Women Ethnic</a>
+                                        <a class="dpn_anchr" href="">Women Western</a>
+                                        <a class="dpn_anchr" href="">Men Footwear</a>
+                                        <a class="dpn_anchr" href="">Watches and Accessories</a>
+                                        <a class="dpn_anchr" href="">Bags, Suitcases & Luggage</a>
+                                        <a class="dpn_anchr" href="">Kids</a>
+                                        <a class="dpn_anchr" href="">Essentials</a>
+                                        <a class="dpn_anchr" href="">Winter</a>
+                                        <a class="dpn_anchr" href="">Men's Top Wear</a>
+                                    </div>
+                                    <div class="dpn_left_side">
+                                        <span class="dpn_top_spn">more in Men's Top Wear</span>
+                                        <a class="dpn_anchr" href="">All</a>
+                                        <a class="dpn_anchr" href="">Men's T-Shirts</a>
+                                        <a class="dpn_anchr" href="">Men's Casual Shirts</a>
+                                        <a class="dpn_anchr" href="">Men's Formal Shirts</a>
+                                        <a class="dpn_anchr" href="">Men's Kurtas</a>
+                                        <a class="dpn_anchr" href="">Men's Ethnic Sets</a>
+                                        <a class="dpn_anchr" href="">Men's Blazers</a>
+                                        <a class="dpn_anchr" href="">Men's Raincoat</a>
+                                        <a class="dpn_anchr" href="">Men's Windcheaters</a>
+                                        <a class="dpn_anchr" href="">Men's Suit</a>
+                                        <a class="dpn_anchr" href="">Men's Fabrics</a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/five_gift.png">
+                            </div>
+                        </div>
+                        <div class="mb_text">Electronics
+                            <span class="menu-arrow"></span>
+                        </div>
+                    </a>
+
+                    <div class="dropdon">
+                        <div class="product_dropdon">
+                            <div class="dropdon_inner">
+                                <div class="dpn_flx">
+                                    <div class="dpn_left_side">
+                                        <a class="dpn_anchr" href="">Audio</a>
+                                        <a class="dpn_anchr" href="">Electronics GST Store</a>
+                                        <a class="dpn_anchr" href="">Cameras &amp; Accessories</a>
+                                        <a class="dpn_anchr" href="">Computer Peripherals</a>
+                                        <a class="dpn_anchr" href="">Gaming</a>
+                                        <a class="dpn_anchr" href="">Health & Personal Care</a>
+                                        <a class="dpn_anchr" href="">Laptop Accessories</a>
+                                        <a class="dpn_anchr" href="">Laptop and Desktop</a>
+                                        <a class="dpn_anchr" href="">MobileAccessory</a>
+                                        <a class="dpn_anchr" href="">Powerbank</a>
+                                        <a class="dpn_anchr" href="">Smart Wearables</a>
+                                        <a class="dpn_anchr" href="">Storage</a>
+                                        <a class="dpn_anchr" href="">Tablets</a>
+                                    </div>
+                                    <div class="dpn_left_side">
+                                        <span class="dpn_top_spn">more in Audio</span>
+                                        <a class="dpn_anchr" href="">All</a>
+                                        <a class="dpn_anchr" href="">Bluetooth Headphones</a>
+                                        <a class="dpn_anchr" href="">Wired Headphones</a>
+                                        <a class="dpn_anchr" href="">True Wireless Earbuds</a>
+                                        <a class="dpn_anchr" href="">Bluetooth Speakers</a>
+                                        <a class="dpn_anchr" href="">Soundbars</a>
+                                        <a class="dpn_anchr" href="">Home Theatres</a>
+                                        <a class="dpn_anchr" href="">TV Streaming Device</a>
+                                        <a class="dpn_anchr" href="">Remote Control</a>
+                                        <a class="dpn_anchr" href="">DTH Set top box</a>
+                                        <a class="dpn_anchr" href="">Headphones Pouch & Case Covers</a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/six_image.webp">
+                            </div>
+                        </div>
+                        <div class="mb_text">Home
+                            <span class="menu-arrow"></span>
+                        </div>
+                    </a>
+
+                    <div class="dropdon">
+                        <div class="product_dropdon">
+                            <div class="dropdon_inner">
+                                <div class="dpn_flx">
+                                    <div class="dpn_left_side">
+                                        <a class="dpn_anchr" href="">Home Furnishings</a>
+                                        <a class="dpn_anchr" href="">Living Room Furniture</a>
+                                        <a class="dpn_anchr" href="">Kitchen & Dining</a>
+                                        <a class="dpn_anchr" href="">Bedroom Furniture</a>
+                                        <a class="dpn_anchr" href="">Home Decor</a>
+                                        <a class="dpn_anchr" href="">Tools & Utility</a>
+                                        <a class="dpn_anchr" href="">Work Space Furniture</a>
+                                        <a class="dpn_anchr" href="">Lightings & Electricals</a>
+                                        <a class="dpn_anchr" href="">Space Saving Furniture</a>
+                                        <a class="dpn_anchr" href="">Cleaning & Bath</a>
+                                        <a class="dpn_anchr" href="">Kids Furniture</a>
+                                        <a class="dpn_anchr" href="">Pet & Gardening</a>
+                                    </div>
+                                    <div class="dpn_left_side">
+                                        <span class="dpn_top_spn">more in Home Furnishings</span>
+                                        <a class="dpn_anchr" href="">All</a>
+                                        <a class="dpn_anchr" href="">Bed Linens</a>
+                                        <a class="dpn_anchr" href="">Bedsheets</a>
+                                        <a class="dpn_anchr" href="">Blankets</a>
+                                        <a class="dpn_anchr" href="">Curtains & Accessories</a>
+                                        <a class="dpn_anchr" href="">Bath linen</a>
+                                        <a class="dpn_anchr" href="">Floor coverings</a>
+                                        <a class="dpn_anchr" href="">Covers & protectors</a>
+                                        <a class="dpn_anchr" href="">Cushions & Pillows</a>
+                                        <a class="dpn_anchr" href="">Kitchen Linen Sets</a>
+                                        <a class="dpn_anchr" href="">Table Linen Sets</a>
+                                        <a class="dpn_anchr" href="">Sofa & curtain fabrics</a>
+                                        <a class="dpn_anchr" href="">Branded Collections</a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/seven_image.png">
+                            </div>
+                        </div>
+                        <div class="mb_text">Appliances
+
+                        </div>
+                    </a>
+                </div>
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/eight_image.png">
+                            </div>
+                        </div>
+                        <div class="mb_text">Travel
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="mobile_product">
+                    <a class="mb_anchr" href="#">
+                        <div class="top_image">
+                            <div class="mobile_circle">
+                                <img class="mb_img" src="./images/nineimage.webp">
+                            </div>
+                        </div>
+                        <div class="mb_text">Beauty, Toys &amp; More
+                            <span class="menu-arrow"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_product ">
+        <div class="infinix_banner_slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/deels.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/infinix.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/deels.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class=" left_slide" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                    <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="right_slide " type="button" data-target="#carouselExampleControls" data-slide="next">
+                    <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="deals_of_day">
+            <div class="purdhase_left_item">
+                <div class="offer_product_item">
+                    <div class="deals_ttiming">
+                        <div>
+                            <h2 class="heading_d">Deals of the Day</h2>
+                            <div class="off_tmg">
+                                <img src="./images/timer.svg" alt="image">
+                                <span><span><span>09 : </span><span>48 : </span><span>46</span></span> Left</span>
+                            </div>
+
+                            <div class="view_all_btn">
+                                <a href="">VIEW ALL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deals_of_order">
+
+                        <div class="deals_of_inner">
+                            <div class="lowest_price">
+                                <div class="price_with_cart">
+                                    <div class="any_card">
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/watch.jpeg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/girl.jpeg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/iphone.jpg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/badsheet.jpeg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/childimag.webp" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/shoes.jpg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/watch.jpeg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/watch.jpeg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="more_offer">
+                                            <div class="off_image">
+                                                <div class="pdt_anchr" href="">
+                                                    <div class="prdt_higt">
+                                                        <img src="./images/watch.jpeg" alt="">
+                                                    </div>
+                                                    <div class="titan_text">Titan, Fastrack, Sonata..</div>
+                                                    <div class="form_text">From₹499+Extra 10%Off</div>
+                                                    <div class="selling_text">Best Selling Styles!</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="purchase_right_item">
+                <div class="right_product">
+                    <a class="studio_anchr" href="">
+                        <div class="furniture">
+                            <img class="record" src="./images/furniture.webp" alt="">
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="recoment_view_product">
+            <div class="recently_view">
+                <div class="unable_product">
+                    <div class="able_prouct">
+                        <div class="recently_top_section">
+                            <span>Recently Viewed</span>
+                            <div class="recently_view_all">
+                                <a class="view_all_btn" href="">
+                                    <span>View All</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="view_able_product">
+
+
+
+
+
+
+
+
+
+                        <!-- <div class="view_able_next">
+                            <div class="purchase_my_prdt">
+                                <div class="purchase_item">
+                                    <div class="all_recoment_icon">
+
+
+
+                                        <div class="customslider slider">
+
+
+
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/practical-modern-javascript-original-imaex5cwxd43qask.webp"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/practical-modern-javascript-original-imaex5cwxd43qask.webp"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/practical-modern-javascript-original-imaex5cwxd43qask.webp"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/device_light.webp" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/jeans.jpeg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/jeans.jpeg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/kasa.webp" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/blackimg.jpeg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+
+                                            <div class="practical_modern">
+                                                <div class="practical_inner">
+                                                    <a class="practical_anchr" href="">
+                                                        <div class="modern_js">
+                                                            <div class="modern_image">
+                                                                <img src="./images/old_watch.webp" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                    <div>
+                                                        <div>
+                                                            <a class="img_txt_item" href="">Practical Modern
+                                                                JavaScript
+                                                                -
+                                                                Dive into ES6 and the Future of Ja...</a>
+                                                        </div>
+                                                        <div class="ratting_icon">
+                                                            <span class="prdt_span">
+                                                                <div class="product_rating">
+                                                                    4.3
+                                                                    <img src="./images/download.svg" alt="">
+                                                                </div>
+                                                            </span>
+                                                            <span class="prdt_span_second">
+                                                                (6)
+                                                            </span>
+                                                        </div>
+                                                        <div class="Assured">
+                                                            <img src="./images/Assured.png" alt="">
+                                                        </div>
+
+                                                        <div class="payment">
+                                                            <div class="payment_rs">
+                                                                <div class="money">₹800</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="heart_icon"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div> -->
+
+
+
+                        <ul class="slider">
+                            <li>
+                                <div class="practical_modern">
+                                    <div class="practical_inner">
+                                        <a class="practical_anchr" href="">
+                                            <div class="modern_js">
+                                                <div class="modern_image">
+                                                    <img src="./images/practical-modern-javascript-original-imaex5cwxd43qask.webp"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <a class="img_txt_item" href="">Practical Modern
+                                                    JavaScript
+                                                    -
+                                                    Dive into ES6 and the Future of Ja...</a>
+                                            </div>
+                                            <div class="ratting_icon">
+                                                <span class="prdt_span">
+                                                    <div class="product_rating">
+                                                        4.3
+                                                        <img src="./images/download.svg" alt="">
+                                                    </div>
+                                                </span>
+                                                <span class="prdt_span_second">
+                                                    (6)
+                                                </span>
+                                            </div>
+                                            <div class="Assured">
+                                                <img src="./images/Assured.png" alt="">
+                                            </div>
+
+                                            <div class="payment">
+                                                <div class="payment_rs">
+                                                    <div class="money">₹800</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="heart_icon"><i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="practical_modern">
+                                    <div class="practical_inner">
+                                        <a class="practical_anchr" href="">
+                                            <div class="modern_js">
+                                                <div class="modern_image">
+                                                    <img src="./images/old_watch.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <a class="img_txt_item" href="">Practical Modern
+                                                    JavaScript
+                                                    -
+                                                    Dive into ES6 and the Future of Ja...</a>
+                                            </div>
+                                            <div class="ratting_icon">
+                                                <span class="prdt_span">
+                                                    <div class="product_rating">
+                                                        4.3
+                                                        <img src="./images/download.svg" alt="">
+                                                    </div>
+                                                </span>
+                                                <span class="prdt_span_second">
+                                                    (6)
+                                                </span>
+                                            </div>
+                                            <div class="Assured">
+                                                <img src="./images/Assured.png" alt="">
+                                            </div>
+
+                                            <div class="payment">
+                                                <div class="payment_rs">
+                                                    <div class="money">₹800</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="heart_icon"><i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="practical_modern">
+                                    <div class="practical_inner">
+                                        <a class="practical_anchr" href="">
+                                            <div class="modern_js">
+                                                <div class="modern_image">
+                                                    <img src="./images/kasa.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <a class="img_txt_item" href="">Practical Modern
+                                                    JavaScript
+                                                    -
+                                                    Dive into ES6 and the Future of Ja...</a>
+                                            </div>
+                                            <div class="ratting_icon">
+                                                <span class="prdt_span">
+                                                    <div class="product_rating">
+                                                        4.3
+                                                        <img src="./images/download.svg" alt="">
+                                                    </div>
+                                                </span>
+                                                <span class="prdt_span_second">
+                                                    (6)
+                                                </span>
+                                            </div>
+                                            <div class="Assured">
+                                                <img src="./images/Assured.png" alt="">
+                                            </div>
+
+                                            <div class="payment">
+                                                <div class="payment_rs">
+                                                    <div class="money">₹800</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="heart_icon"><i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="practical_modern">
+                                    <div class="practical_inner">
+                                        <a class="practical_anchr" href="">
+                                            <div class="modern_js">
+                                                <div class="modern_image">
+                                                    <img src="./images/old_watch.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <a class="img_txt_item" href="">Practical Modern
+                                                    JavaScript
+                                                    -
+                                                    Dive into ES6 and the Future of Ja...</a>
+                                            </div>
+                                            <div class="ratting_icon">
+                                                <span class="prdt_span">
+                                                    <div class="product_rating">
+                                                        4.3
+                                                        <img src="./images/download.svg" alt="">
+                                                    </div>
+                                                </span>
+                                                <span class="prdt_span_second">
+                                                    (6)
+                                                </span>
+                                            </div>
+                                            <div class="Assured">
+                                                <img src="./images/Assured.png" alt="">
+                                            </div>
+
+                                            <div class="payment">
+                                                <div class="payment_rs">
+                                                    <div class="money">₹800</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="heart_icon"><i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="practical_modern">
+                                    <div class="practical_inner">
+                                        <a class="practical_anchr" href="">
+                                            <div class="modern_js">
+                                                <div class="modern_image">
+                                                    <img src="./images/jeans.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <a class="img_txt_item" href="">Practical Modern
+                                                    JavaScript
+                                                    -
+                                                    Dive into ES6 and the Future of Ja...</a>
+                                            </div>
+                                            <div class="ratting_icon">
+                                                <span class="prdt_span">
+                                                    <div class="product_rating">
+                                                        4.3
+                                                        <img src="./images/download.svg" alt="">
+                                                    </div>
+                                                </span>
+                                                <span class="prdt_span_second">
+                                                    (6)
+                                                </span>
+                                            </div>
+                                            <div class="Assured">
+                                                <img src="./images/Assured.png" alt="">
+                                            </div>
+
+                                            <div class="payment">
+                                                <div class="payment_rs">
+                                                    <div class="money">₹800</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="heart_icon"><i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="practical_modern">
+                                    <div class="practical_inner">
+                                        <a class="practical_anchr" href="">
+                                            <div class="modern_js">
+                                                <div class="modern_image">
+                                                    <img src="./images/blackimg.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <a class="img_txt_item" href="">Practical Modern
+                                                    JavaScript
+                                                    -
+                                                    Dive into ES6 and the Future of Ja...</a>
+                                            </div>
+                                            <div class="ratting_icon">
+                                                <span class="prdt_span">
+                                                    <div class="product_rating">
+                                                        4.3
+                                                        <img src="./images/download.svg" alt="">
+                                                    </div>
+                                                </span>
+                                                <span class="prdt_span_second">
+                                                    (6)
+                                                </span>
+                                            </div>
+                                            <div class="Assured">
+                                                <img src="./images/Assured.png" alt="">
+                                            </div>
+
+                                            <div class="payment">
+                                                <div class="payment_rs">
+                                                    <div class="money">₹800</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="heart_icon"><i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="practical_modern">
+                                    <div class="practical_inner">
+                                        <a class="practical_anchr" href="">
+                                            <div class="modern_js">
+                                                <div class="modern_image">
+                                                    <img src="./images/jeans.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <a class="img_txt_item" href="">Practical Modern
+                                                    JavaScript
+                                                    -
+                                                    Dive into ES6 and the Future of Ja...</a>
+                                            </div>
+                                            <div class="ratting_icon">
+                                                <span class="prdt_span">
+                                                    <div class="product_rating">
+                                                        4.3
+                                                        <img src="./images/download.svg" alt="">
+                                                    </div>
+                                                </span>
+                                                <span class="prdt_span_second">
+                                                    (6)
+                                                </span>
+                                            </div>
+                                            <div class="Assured">
+                                                <img src="./images/Assured.png" alt="">
+                                            </div>
+
+                                            <div class="payment">
+                                                <div class="payment_rs">
+                                                    <div class="money">₹800</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="heart_icon"><i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- popup for show my profile start -->
+                        <!-- popup for show my profile end -->
+
+                        <div id="overlay">
+                            <div class="popup_cart_main">
+                                <div class="left_side_cart">
+                                    <span class="left_login">Login</span>
+                                    <p><span>Get access to your Orders, Wishlist and Recommendations</span></p>
+                                </div>
+                                <div class="right_side_pop_cart">
+                                    <div class="pop_bodr">
+                                        <form autocomplete="on">
+                                            <div class="mobile_text">
+                                                <div class="close_pop" onclick="handleModal('overlay')"></div>
+                                                <input type="text" class="input_mb" spellcheck="false"
+                                                    data-ms-editor="true" placeholder="Enter Email/Mobile number">
+                                                <span class="spn_bdr"></span>
+                                                <input type="password" class="input_mb" spellcheck="false"
+                                                    data-ms-editor="true" placeholder="Enter Password">
+                                                <span class="spn_bdr"></span>
+
+                                                <div class="continuing">By continuing, you agree to Flipkart's <a
+                                                        class="p_anchr" href="">Term
+                                                        of use</a>and <a class="p_anchr" href="">Privacy Policy</a>.
+                                                </div>
+                                                <div class="lg_btn"><button class="btn_login"
+                                                        type="submit">Login</button>
+                                                </div>
+
+                                                <div class=" text-center">OR</div>
+
+                                                <div class="lg_btn  text-center"><button class="request"
+                                                        type="submit">Request
+                                                        OTP</button>
+                                                </div>
+                                                <div class="create_acount text-center">
+                                                    <a href="#">New to Flipkart? Create an account</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <footer class="Brand_directry">
+                            <div class="top_stories">
+                                <div class="main_row">
+                                    <div class=" most_searched">
+
+                                        <span>Top Stories</span>
+                                        :
+                                        <a href="">Brand Directory</a>
+
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="footer_first_text">
+                                        <span>Most searched for on Flipkart :</span>
+                                        <a href="#" class="bounse_text text-decoration-none">Bounce Infinity E1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6A</a>
+                                        <a href="#" class="bounse_text text-decoration-none">vivo T1X</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno8 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Nothing Phone 1</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Sell Old Mobile Phones</a>
+                                        <a href="#" class="bounse_text text-decoration-none">ASUS TUF Gaming F15 Core i5
+                                            10th
+                                            Gen</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Electronics Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO A16K</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Vivo Y33T</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Bathroom Exhaust Fan</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Samsung Window AC</a>
+                                        <a href="#" class="bounse_text text-decoration-none">OPPO Reno7 Pro 5G</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Pro Max</a>
+                                        <a href="#" class="bounse_text text-decoration-none">iPhone 13 Mini</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Google Pixel 6a covers</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Quick</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Books</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Help Centre</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Online Boat Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Track Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Manage Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Return Orders</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Gift Cards
+                                            Store</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Axis Bank Credit
+                                            Card</a>
+                                        <a href="#" class="bounse_text text-decoration-none">Flipkart Pay Later</a>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col shoping_destination">
+                                            <div class="flipcart_destination">
+                                                <div>
+                                                    <h1>Flipkart: The One-stop Shopping Destination</h1>
+                                                    E-commerce is revolutionizing the way we all shop in India. Why do
+                                                    you
+                                                    want
+                                                    to
+                                                    hop
+                                                    from
+                                                    one store to another in search of the latest phone when you can find
+                                                    it
+                                                    on
+                                                    the
+                                                    Internet
+                                                    in a single click? Not only mobiles. Flipkart houses everything you
+                                                    can
+                                                    possibly
+                                                    imagine, from trending electronics like laptops, tablets,
+                                                    smartphones,
+                                                    and
+                                                    mobile
+                                                    accessories to in-vogue fashion staples like shoes, clothing and
+                                                    lifestyle
+                                                    accessories;
+                                                    from modern furniture like sofa sets, dining tables, and wardrobes
+                                                    to
+                                                    appliances
+                                                    that
+                                                    make your life easy like washing machines, TVs, ACs, mixer grinder
+                                                    juicers
+                                                    and
+                                                    other
+                                                    time-saving kitchen and small appliances; from home furnishings like
+                                                    cushion
+                                                    covers,
+                                                    mattresses and bedsheets to toys and musical instruments, we got
+                                                    them
+                                                    all
+                                                    covered.
+                                                    You
+                                                    name it, and you can stay assured about finding them all here. For
+                                                    those
+                                                    of
+                                                    you
+                                                    with
+                                                    erratic working hours, Flipkart is your best bet. Shop in your PJs,
+                                                    at
+                                                    night
+                                                    or
+                                                    in
+                                                    the
+                                                    wee hours of the morning. This e-commerce never shuts down.
+                                                    <br>
+                                                    <br>
+                                                    What's more, with our year-round shopping festivals and events, our
+                                                    prices
+                                                    are
+                                                    irresistible. We're sure you'll find yourself picking up more than
+                                                    what
+                                                    you
+                                                    had
+                                                    in
+                                                    mind.
+                                                    If you are wondering why you should shop from Flipkart when there
+                                                    are
+                                                    multiple
+                                                    options
+                                                    available to you, well, the below will answer your question.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Flipkart Plus</h2>
+                                                    A world of limitless possibilities awaits you - Flipkart Plus was
+                                                    kickstarted as
+                                                    a
+                                                    loyalty reward programme for all its regular customers at zero
+                                                    subscription
+                                                    fee.
+                                                    All
+                                                    you
+                                                    need is 500 supercoins to be a part of this service. For every 100
+                                                    rupees
+                                                    spent
+                                                    on
+                                                    Flipkart order, Plus members earns 4 supercoins &amp; non-plus
+                                                    members
+                                                    earn
+                                                    2
+                                                    supercoins. Free delivery, early access during sales and shopping
+                                                    festivals,
+                                                    exchange
+                                                    offers and priority customer service are the top benefits to a
+                                                    Flipkart
+                                                    Plus
+                                                    member.
+                                                    In
+                                                    short, earn more when you shop more!
+                                                    <br>
+                                                    <br>
+                                                    What's more, you can even use the Flipkart supercoins for a number
+                                                    of
+                                                    exciting
+                                                    services,
+                                                    like:
+                                                    <br>
+                                                    An annual Zomato Gold membership
+                                                    <br>
+                                                    An annual Hotstar Premium membership
+                                                    <br>
+                                                    6 months Gaana plus subscription
+                                                    <br>
+                                                    Rupees 550 instant discount on flights on ixigo
+                                                    <br>
+                                                    Check out https://www.flipkart.com/plus/all-offers for the entire
+                                                    list.
+                                                    Terms
+                                                    and
+                                                    conditions apply.
+                                                    <br>
+                                                    <br>
+                                                    <h2>No Cost EMI</h2>
+                                                    In an attempt to make high-end products accessible to all, our No
+                                                    Cost
+                                                    EMI
+                                                    plan
+                                                    enables
+                                                    you to shop with us under EMI, without shelling out any processing
+                                                    fee.
+                                                    Applicable
+                                                    on
+                                                    select mobiles, laptops, large and small appliances, furniture,
+                                                    electronics
+                                                    and
+                                                    watches,
+                                                    you can now shop without burning a hole in your pocket. If you've
+                                                    been
+                                                    eyeing a
+                                                    product
+                                                    for a long time, chances are it may be up for a no cost EMI. Take a
+                                                    look
+                                                    ASAP!
+                                                    Terms
+                                                    and
+                                                    conditions apply.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Mobile Exchange Offers</h2>
+                                                    Get an instant discount on the phone that you have been eyeing on.
+                                                    Exchange
+                                                    your
+                                                    old
+                                                    mobile for a new one after the Flipkart experts calculate the value
+                                                    of
+                                                    your
+                                                    old
+                                                    phone,
+                                                    provided it is in a working condition without damage to the screen.
+                                                    If a
+                                                    phone
+                                                    is
+                                                    applicable for an exchange offer, you will see the 'Buy with
+                                                    Exchange'
+                                                    option on
+                                                    the
+                                                    product description of the phone. So, be smart, always opt for an
+                                                    exchange
+                                                    wherever
+                                                    possible. Terms and conditions apply.
+                                                    <br>
+                                                    <br>
+                                                    <h2>What Can You Buy From Flipkart?</h2>
+                                                    <h2>Mobile Phones</h2>
+                                                    From budget phones to state-of-the-art smartphones, we have a mobile
+                                                    for
+                                                    everybody
+                                                    out
+                                                    there. Whether you're looking for larger, fuller screens,
+                                                    power-packed
+                                                    batteries,
+                                                    blazing-fast processors, beautification apps, high-tech selfie
+                                                    cameras
+                                                    or
+                                                    just
+                                                    large
+                                                    internal space, we take care of all the essentials. Shop from top
+                                                    brands
+                                                    in
+                                                    the
+                                                    country
+                                                    like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a
+                                                    few.
+                                                    Rest
+                                                    assured,
+                                                    you're buying from only the most reliable names in the market.
+                                                    What's
+                                                    more,
+                                                    with
+                                                    Flipkart's Complete Mobile Protection Plan, you will never again
+                                                    find
+                                                    the
+                                                    need
+                                                    to
+                                                    run
+                                                    around service centres. This plan entails you to a number of
+                                                    post-purchase
+                                                    solutions,
+                                                    starting at as low as Rupees 99 only! Broken screens, liquid damage
+                                                    to
+                                                    phone,
+                                                    hardware
+                                                    and software glitches, and replacements -
+                                                    <b>the Flipkart Complete Mobile Protection</b>n
+                                                    covers a comprehensive range of post-purchase problems, with
+                                                    door-to-door
+                                                    services.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Electronic Devices and Accessories</h2>
+                                                    When it comes to laptops, we are not far behind. Filter among dozens
+                                                    of
+                                                    super-fast
+                                                    operating systems, hard disk capacity, RAM, lifestyle, screen size
+                                                    and
+                                                    many
+                                                    other
+                                                    criterias for personalized results in a flash. All you students out
+                                                    there,
+                                                    confused
+                                                    about what laptop to get? Our
+                                                    <b>Back To College Store</b>
+                                                    segregates laptops purpose wise (gaming, browsing and research,
+                                                    project
+                                                    work,
+                                                    entertainment, design, multitasking) with recommendations from top
+                                                    brands
+                                                    and
+                                                    industry
+                                                    experts, facilitating a shopping experience that is quicker and
+                                                    simpler.
+                                                    <br>
+                                                    <br>
+                                                    Turn your home into a theatre with a stunning surround sound system.
+                                                    Choose
+                                                    from
+                                                    our
+                                                    elaborate range of Sony home theatres, JBL soundbars and Philips
+                                                    tower
+                                                    speakers
+                                                    for
+                                                    an
+                                                    experience to remember.
+                                                    <br>
+                                                    <br>
+                                                    How about jazzing up your phone with our quirky designer cases and
+                                                    covers?
+                                                    Our
+                                                    wide-ranging mobile accessories starting from headphones, power
+                                                    banks,
+                                                    memory
+                                                    cards,
+                                                    mobile chargers, to selfie sticks can prove to be ideal travel
+                                                    companions
+                                                    for
+                                                    you
+                                                    and
+                                                    your phone; never again worry about running out of charge or memory
+                                                    on
+                                                    your
+                                                    next
+                                                    vacation.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Large Appliances</h2>
+                                                    Sleek TVs, power-saving refrigerators, rapid-cooling ACs,
+                                                    resourceful
+                                                    washing
+                                                    machines -
+                                                    discover everything you need to run a house under one roof. Our
+                                                    <b>Dependable TV and Appliance Store</b>
+                                                    ensures zero transit damage, with a replacement guarantee if
+                                                    anything
+                                                    goes
+                                                    wrong;
+                                                    delivery and installation as per your convenience and a double
+                                                    warranty
+                                                    (Official
+                                                    Brand
+                                                    Warranty along with an extended Flipkart Warranty) - rest assured,
+                                                    value
+                                                    for
+                                                    money
+                                                    is
+                                                    what is promised and delivered. Shop from market leaders in the
+                                                    country
+                                                    like
+                                                    Samsung,
+                                                    LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and
+                                                    Hitachi
+                                                    among
+                                                    many
+                                                    others.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Small Home Appliances</h2>
+                                                    Find handy and practical home appliances designed to make your life
+                                                    simpler:
+                                                    electric
+                                                    kettles, OTGs, microwave ovens, sandwich makers, hand blenders,
+                                                    coffee
+                                                    makers,
+                                                    and
+                                                    many
+                                                    more other time-saving appliances that are truly crafted for a
+                                                    quicker
+                                                    lifestyle.
+                                                    Live
+                                                    life king size with these appliances at home.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Lifestyle</h2>
+                                                    Flipkart,
+                                                    <b>'India ka Fashion Capital'</b>
+                                                    , is your one-stop fashion destination for anything and everything
+                                                    you
+                                                    need
+                                                    to
+                                                    look
+                                                    good. Our exhaustive range of Western and Indian wear, summer and
+                                                    winter
+                                                    clothing,
+                                                    formal and casual footwear, bridal and artificial jewellery,
+                                                    long-lasting
+                                                    make-up,
+                                                    grooming tools and accessories are sure to sweep you off your feet.
+                                                    Shop
+                                                    from
+                                                    crowd
+                                                    favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike,
+                                                    Puma,
+                                                    Revlon,
+                                                    Mac,
+                                                    and Sephora among dozens of other top-of-the-ladder names. From
+                                                    summer
+                                                    staple
+                                                    maxi
+                                                    dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to
+                                                    street-smart
+                                                    biker
+                                                    jackets, you can rely on us for a wardrobe that is up to date.
+                                                    Explore
+                                                    our
+                                                    in-house
+                                                    brands like Metronaut, Anmi, and Denizen, to name a few, for
+                                                    carefully
+                                                    curated
+                                                    designs
+                                                    that are the talk of the town. Get ready to be spoiled for
+                                                    choice.Festivals,
+                                                    office
+                                                    get-togethers, weddings, brunches, or nightwear - Flipkart will have
+                                                    your
+                                                    back
+                                                    each
+                                                    time.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Home and Furniture</h2>
+                                                    Moving to a new place is never easy, especially if you're buying new
+                                                    furniture.
+                                                    Beds,
+                                                    sofa sets, dining tables, wardrobes, and TV units - it's not easy to
+                                                    set
+                                                    up
+                                                    everything
+                                                    again. With the hundreds of options thrown at you, the ride could be
+                                                    overwhelming.
+                                                    What
+                                                    place is reliable, what furniture will stand the test of time? These
+                                                    are
+                                                    questions
+                                                    you
+                                                    must ask before you choose a store. Well, our
+                                                    <b>Durability Certified Furniture Store</b>
+                                                    has not only curated a range of furniture keeping in mind the modern
+                                                    Indian
+                                                    consumer
+                                                    but
+                                                    furniture that comes with a lab certification, ensuring they last
+                                                    you
+                                                    for up
+                                                    to
+                                                    10
+                                                    years. Yes, all our furniture has gone through 35 stability and load
+                                                    tests
+                                                    so
+                                                    that
+                                                    you
+                                                    receive only the best-quality furniture.
+                                                    <b>Be FurniSure</b>
+                                                    , always. Names to look out for are Nilkamal, Godrej Interio, Urban
+                                                    Ladder,
+                                                    HomeTown,
+                                                    Durian and Perfect Homes.
+                                                    <br>
+                                                    <br>
+                                                    You may have your furniture all set up, but they could end up
+                                                    looking
+                                                    flat
+                                                    and
+                                                    incomplete without complementary decor. Curtains, cushion covers,
+                                                    bed
+                                                    sheets,
+                                                    wall
+                                                    shelves, paintings, floor lamps - find everything that turns a house
+                                                    to
+                                                    an
+                                                    inviting
+                                                    home
+                                                    under one roof at Flipkart.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Baby and Kids</h2>
+                                                    Your kids deserve only the best. From bodysuits, booties, diapers to
+                                                    strollers,
+                                                    if
+                                                    you're an expecting mother or a new mother, you will find everything
+                                                    you
+                                                    need to
+                                                    set
+                                                    sail on a smooth parenting journey with the help of our baby care
+                                                    collection.
+                                                    When
+                                                    it
+                                                    comes to safety, hygiene and comfort, you can rely on us without a
+                                                    second
+                                                    thought.
+                                                    Huggies, Pampers, MamyPoko, and Johnson &amp; Johnson: we host only
+                                                    the
+                                                    most-trusted
+                                                    names in the business for your baby.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Books, Sports and Games</h2>
+                                                    Work hard and no play? We don't believe in that. Get access to
+                                                    best-selling
+                                                    fiction
+                                                    and
+                                                    non-fiction books by your favourite authors, thrilling English and
+                                                    Indian
+                                                    blockbusters,
+                                                    most-wanted gaming consoles, and a tempting range of fitness and
+                                                    sports
+                                                    gadgets
+                                                    and
+                                                    equipment bound to inspire you to get moving.
+                                                    <br>
+                                                    <br>
+                                                    <h2>Grocery/Supermart</h2>
+                                                    Launching into the grocery vertical, Flipkart introduces
+                                                    <b>Supermart</b>
+                                                    that is out to bring everyday essentials close to you. From pulses,
+                                                    spices,
+                                                    dairy,
+                                                    personal and sanitary care, breakfast essentials, health drinks,
+                                                    spreads,
+                                                    ready
+                                                    to
+                                                    cook,
+                                                    grooming to cleaning agents, we are happy to present everything you
+                                                    need
+                                                    to
+                                                    run
+                                                    a
+                                                    house.
+                                                    Now buy Grocery products for as low as 1 Rupee only - our
+                                                    <b>1 Rupee Store</b>
+                                                    presents new products every day for a nominal price of 1 Rupee only.
+                                                    Terms
+                                                    and
+                                                    conditions apply.
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="info_bottom_part">
+                                    <div class="row m-auto cmp_information">
+                                        <div class="contact_us">
+                                            <div class="fr_abt">ABOUT</div>
+                                            <a class="foo_anchr" href="#">Contact Us</a>
+                                            <a class="foo_anchr" href="#">About Us</a>
+                                            <a class="foo_anchr" href="#">Careers</a>
+                                            <a class="foo_anchr" href="#">Flipkart Stories</a>
+                                            <a class="foo_anchr" href="#">Press</a>
+                                            <a class="foo_anchr" href="#">Flipkart Wholesale</a>
+                                            <a class="foo_anchr" href="#">Corporate Information</a>
+                                        </div>
+
+                                        <div class="contact_us">
+                                            <div class="fr_abt">HELP</div>
+                                            <a class="foo_anchr" href="#">Payments</a>
+                                            <a class="foo_anchr" href="#">Shipping</a>
+                                            <a class="foo_anchr" href="#">Cancellation & Returns</a>
+                                            <a class="foo_anchr" href="#">FAQ</a>
+                                            <a class="foo_anchr" href="#">Report Infringement</a>
+
+                                        </div>
+
+                                        <div class="contact_us">
+                                            <div class="fr_abt">POLICY</div>
+                                            <a class="foo_anchr" href="#">Return Policy</a>
+                                            <a class="foo_anchr" href="#">Terms Of Use</a>
+                                            <a class="foo_anchr" href="#">Security</a>
+                                            <a class="foo_anchr" href="#">Privacy</a>
+                                            <a class="foo_anchr" href="#">Sitemap</a>
+                                            <a class="foo_anchr" href="#">EPR Compliance</a>
+
+                                        </div>
+
+                                        <div class="contact_us">
+                                            <div class="fr_abt">SOCIAL</div>
+                                            <a class="foo_anchr" href="#">Facebook</a>
+                                            <a class="foo_anchr" href="#">Twitter</a>
+                                            <a class="foo_anchr" href="#">YouTube</a>
+                                        </div>
+
+                                        <div class="contact_us">
+                                            <div class="mail_us">
+                                                <div class="fr_abt"><span>Mail Us:</span></div>
+                                                <div class="foo_pragrf">
+                                                    <p class="m-0">Flipkart Internet Private Limited, </p>
+                                                    <p class="m-0"> Buildings Alyssa, Begonia &amp; </p>
+                                                    <p class="m-0"> Clove Embassy Tech Village, </p>
+                                                    <p class="m-0"> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                                    <p class="m-0"> Bengaluru, 560103, </p>
+                                                    <p class="m-0"> Karnataka, India</p>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="contact_us">
+                                            <div class="mail_us">
+                                                <div class="fr_abt"><span>Registered Office Address:</span></div>
+                                                <div class="foo_pragrf">
+                                                    <p class="m-0">Flipkart Internet Private Limited, </p>
+                                                    <p class="m-0"> Buildings Alyssa, Begonia & </p>
+                                                    <p class="m-0"> Clove Embassy Tech Village, </p>
+                                                    <p class="m-0"> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                                    <p class="m-0"> Bengaluru, 560103, </p>
+                                                    <p class="m-0"> Karnataka, India </p>
+                                                    <p class="m-0"> CIN : U51109KA2012PTC066107 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="last_footer">
+                                        <div>
+                                            <img src="./images/lllllll.svg" alt="">
+                                            <a class="d-inline-block lf_anch" href=""><span>Become a Seller</span></a>
+                                        </div>
+                                        <div>
+                                            <img src="./images/download (1).svg" alt="">
+                                            <a class="d-inline-block  lf_anch" href=""><span>Advertise</span></a>
+                                        </div>
+                                        <div>
+                                            <img src="./images/download (2).svg" alt="">
+                                            <a class="d-inline-block  lf_anch" href=""><span>Gift Cards</span></a>
+                                        </div>
+                                        <div>
+                                            <img src="./images/download (3).svg" alt="">
+                                            <a class="d-inline-block  lf_anch" href=""><span>Help Center</span></a>
+                                        </div>
+                                        <div>
+
+                                            <a class="d-inline-block  lf_anch" href=""><span>©
+                                                    2007-2022<span>Flipkart.com</span></span></a>
+                                        </div>
+                                        <div>
+                                            <img src="./images/payment-method_69e7ec.svg" alt="">
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </footer>
+                        
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+$('.slider').slick({
+    infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 6
+});
+
+
+        // $(document).ready(function () {
+
+        //     $(".customslider").slick({
+        //         dots: false,
+        //         slidesToShow: 7,
+        //         slidesToScroll: 5
+        //     });
+
+        // })
+
+            
+
+       
+
+//         $('.responsive').slick({
+//   dots: true,
+//   infinite: false,
+//   speed: 300,
+//   slidesToShow: 4,
+//   slidesToScroll: 4,
+//   responsive: [
+//     {
+//       breakpoint: 1024,
+//       settings: {
+//         slidesToShow: 3,
+//         slidesToScroll: 3,
+//         infinite: true,
+//         dots: true
+//       }
+//     },
+//     {
+//       breakpoint: 600,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 2
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         slidesToShow: 1,
+//         slidesToScroll: 1
+//       }
+//     }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+
+    </script>
+
+</body>
+
+</html>
